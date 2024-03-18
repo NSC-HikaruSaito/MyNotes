@@ -12,7 +12,9 @@ JAX-RSのAPIの引数としているクラスにデフォルトコンストラ�
 - 引数のクラスが持つフィールドのクラスも再帰的にチェックして一緒に出力
 
 Reflection使うのが手っ取り早いのでサービス内に埋め込む（コミットとかはしない）
-めんどくさいので、結果はSystem.out.printlnする感じで
+めんどくさいので、結果はSystem.out.printlnする感じで  
+[JaxRsApiChecker](https://github.com/NSC-HikaruSaito/MyNotes/blob/main/JavaUpgrade/AnnotationAdder/JaxRsApiChecker.java)
+
 
 ## 2.一括でアノテーション付与
 1で洗い出した対象を処理していく
