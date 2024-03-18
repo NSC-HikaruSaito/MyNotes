@@ -11,8 +11,9 @@ JAX-RSのAPIの引数としているクラスにデフォルトコンストラ�
 - WebAPIの引数でデフォルトコンストラクタが付いてないものを出力
 - 引数のクラスが持つフィールドのクラスも再帰的にチェックして一緒に出力
 
-Reflection使うのが手っ取り早いのでサービス内に埋め込む（コミットとかはしない）
+Reflection使うのが手っ取り早いのでサービス内に埋め込む（コミットとかはしない）  
 めんどくさいので、結果はSystem.out.printlnする感じで  
+
 [JaxRsApiChecker](https://github.com/NSC-HikaruSaito/MyNotes/blob/main/JavaUpgrade/AnnotationAdder/JaxRsApiChecker.java)
 
 
@@ -26,3 +27,5 @@ Reflection使うのが手っ取り早いのでサービス内に埋め込む（�
 - @RequiredArgsConstructorがあれば削除
 - フィールドにfinal修飾子があれば削除
 不要なアノテーションが多数付いていたので、不要なものは削除する感じで
+
+[AnnotationAdder](https://github.com/NSC-HikaruSaito/MyNotes/blob/main/JavaUpgrade/AnnotationAdder/AnnotationAdder.java)
