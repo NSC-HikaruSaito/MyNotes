@@ -1,4 +1,4 @@
-Java8 → Java17までのJEPの内容をメモ。間違ってるのとかもあるかも  
+Java8 → Java17までのJEPの内容をメモ。ものすごくアバウト & 間違ってるのとかもあるかも  
 https://openjdk.org/jeps/0  
 
 
