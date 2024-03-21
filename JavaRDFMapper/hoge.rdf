@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xml:lang="ja">
+<channel rdf:about="[hogehogeURL]">
+<title>HogeHoge記事</title>
+<link>[hogehogeURL]</link>
+<description>HogeHoge記事です。</description>
+<dc:language>ja</dc:language>
+<dc:rights>Copyright (c) HogeHoge</dc:rights>
+<dc:date>2024-03-21T13:29:59+09:00</dc:date>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="[hogehogeURL]/article/01" />
+<rdf:li rdf:resource="[hogehogeURL]/article/02" />
+<rdf:li rdf:resource="[hogehogeURL]/article/03" />
+<rdf:li rdf:resource="[hogehogeURL]/article/04" />
+<rdf:li rdf:resource="[hogehogeURL]/article/05" />
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="[hogehogeURL]/article/01">
+<title>HogeHoge記事01</title>
+<link>[hogehogeURL]/article/01</link>
+<description>HogeHoge記事01の説明だよ</description>
+<typicalImages>[hogehogeURL]/article/hogeimg01.jpg</typicalImages>
+<dc:date>2024-03-21T00:00:00+09:00</dc:date>
+</item>
+<item rdf:about="[hogehogeURL]/article/02">
+<title>HogeHoge記事02</title>
+<link>[hogehogeURL]/article/02</link>
+<description>HogeHoge記事02の説明だよ</description>
+<typicalImages>[hogehogeURL]/article/hogeimg02.jpg</typicalImages>
+<dc:date>2024-03-21T00:00:00+09:00</dc:date>
+</item>
+<item rdf:about="[hogehogeURL]/article/03">
+<title>HogeHoge記事03</title>
+<link>[hogehogeURL]/article/03</link>
+<description>HogeHoge記事03の説明だよ</description>
+<typicalImages>[hogehogeURL]/article/hogeimg03.jpg</typicalImages>
+<dc:date>2024-03-21T00:00:00+09:00</dc:date>
+</item>
+<item rdf:about="[hogehogeURL]/article/04">
+<title>HogeHoge記事04</title>
+<link>[hogehogeURL]/article/04</link>
+<description>HogeHoge記事04の説明だよ</description>
+<typicalImages>[hogehogeURL]/article/hogeimg04.jpg</typicalImages>
+<dc:date>2024-03-21T00:00:00+09:00</dc:date>
+</item>
+<item rdf:about="[hogehogeURL]/article/05">
+<title>HogeHoge記事05</title>
+<link>[hogehogeURL]/article/05</link>
+<description>HogeHoge記事05の説明だよ</description>
+<typicalImages>[hogehogeURL]/article/hogeimg05.jpg</typicalImages>
+<dc:date>2024-03-21T00:00:00+09:00</dc:date>
+</item>
+</rdf:RDF>
