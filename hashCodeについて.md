@@ -1,6 +1,6 @@
 # hashCodeって実際どうやってるのを調べるための旅
 
-JVMの実装を調べる  
+何かふと気になったので、JVMの実装を調べる  
 AmazonCoretto8のGithubでコードを辿ってみた  
 [corretto-8](https://github.com/corretto/corretto-8)
 
